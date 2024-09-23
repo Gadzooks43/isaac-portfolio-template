@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/ui-portfolio-template/about-me",
+  "source": "@site/src/pages/about-me.md",
+  "title": "About Me",
+  "description": "Welcome to my portfolio! Here, you can find information about my skills, experience, and background.",
+  "frontMatter": {
+    "title": "About Me",
+    "slug": "/about-me"
+  },
+  "unlisted": false
+}

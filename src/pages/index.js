@@ -32,6 +32,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
+  console.log("this is loading!");
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
