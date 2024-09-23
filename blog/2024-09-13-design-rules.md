@@ -1,6 +1,6 @@
 ---
-slug: aesthetic-design
-title: Aesthetic Design
+slug: design-rules
+title: Design Rules
 authors:
   - name: Isaac Kenney
     title: Student
