@@ -3,15 +3,17 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My UI Portfolio",
+  title: "Carly's Portfolio",
   tagline: "Showcasing My Work and Thoughts",
   favicon: "img/favicon.ico",
 
-  url: "https://your-domain.com", // Replace with your actual domain
-  baseUrl: "/",
+  ////////////////////////////////////////////////////////////////////////////
+  url: "https://carlykendeigh.github.io", // Replace with your actual domain
+  baseUrl: "/ui-portfolio-template/",
 
-  organizationName: "your-org", // Replace with your GitHub org/user name
-  projectName: "my-ui-portfolio", // Replace with your repo/project name
+  organizationName: "carlykendeigh", // Replace with your GitHub org/user name
+  projectName: "ui-portfolio-template", // Replace with your repo/project name
+  ////////////////////////////////////////////////////////////////////////////
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -54,7 +56,9 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/contact", label: "Contact", position: "right" },
           {
-            href: "https://github.com/your-org/my-ui-portfolio",
+            ////////////////////////////////////////////////////////////////////////////
+            href: "https://github.com/carlykendeigh/ui-portfolio-template",
+            ////////////////////////////////////////////////////////////////////////////
             label: "GitHub",
             position: "right",
           },
@@ -80,7 +84,9 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/your-org/my-ui-portfolio",
+                ////////////////////////////////////////////////////////////////////////////
+                href: "https://github.com/carlykendeigh/ui-portfolio-template",
+                ////////////////////////////////////////////////////////////////////////////
               },
             ],
           },

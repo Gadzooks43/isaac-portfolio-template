@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://carlykendeigh.github.io/ui-portfolio-template/blog</id>
+    <title>Carly's Portfolio Blog</title>
+    <updated>2024-08-26T14:30:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://carlykendeigh.github.io/ui-portfolio-template/blog"/>
+    <subtitle>Carly's Portfolio Blog</subtitle>
+    <icon>https://carlykendeigh.github.io/ui-portfolio-template/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Example Blog Post]]></title>
+        <id>https://carlykendeigh.github.io/ui-portfolio-template/blog/example-blog-post</id>
+        <link href="https://carlykendeigh.github.io/ui-portfolio-template/blog/example-blog-post"/>
+        <updated>2024-08-26T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[This is an example of a blog post for a homework assignment with an assigned reading.]]></summary>
+        <content type="html"><![CDATA[<p>This is an example of a blog post for a homework assignment with an assigned reading.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content>
+        <category label="FreeForm" term="FreeForm"/>
+    </entry>
+</feed>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Carly's Portfolio Blog</title>
+        <link>https://carlykendeigh.github.io/ui-portfolio-template/blog</link>
+        <description>Carly's Portfolio Blog</description>
+        <lastBuildDate>Mon, 26 Aug 2024 14:30:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Example Blog Post]]></title>
+            <link>https://carlykendeigh.github.io/ui-portfolio-template/blog/example-blog-post</link>
+            <guid>https://carlykendeigh.github.io/ui-portfolio-template/blog/example-blog-post</guid>
+            <pubDate>Mon, 26 Aug 2024 14:30:00 GMT</pubDate>
+            <description><![CDATA[This is an example of a blog post for a homework assignment with an assigned reading.]]></description>
+            <content:encoded><![CDATA[<p>This is an example of a blog post for a homework assignment with an assigned reading.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content:encoded>
+            <category>FreeForm</category>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,13 @@
+{
+  "type": "mdx",
+  "permalink": "/ui-portfolio-template/contact",
+  "source": "@site/src/pages/contact.md",
+  "title": "Contact",
+  "description": "Get in touch with us",
+  "frontMatter": {
+    "title": "Contact",
+    "description": "Get in touch with us",
+    "permalink": "/contact"
+  },
+  "unlisted": false
+}

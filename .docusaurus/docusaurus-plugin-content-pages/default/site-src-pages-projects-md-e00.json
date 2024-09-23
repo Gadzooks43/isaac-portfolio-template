@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/ui-portfolio-template/projects",
+  "source": "@site/src/pages/projects.md",
+  "title": "Projects",
+  "description": "Here are some of the projects I've worked on:",
+  "frontMatter": {
+    "title": "Projects",
+    "slug": "/projects"
+  },
+  "unlisted": false
+}

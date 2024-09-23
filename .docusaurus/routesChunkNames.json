@@ -1,0 +1,89 @@
+{
+  "/ui-portfolio-template/about-me-394": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "a91b54f4"
+  },
+  "/ui-portfolio-template/blog-acd": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "8b225d5c"
+      }
+    ],
+    "__props": "ac204201"
+  },
+  "/ui-portfolio-template/blog/archive-a29": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "5a78b331"
+  },
+  "/ui-portfolio-template/blog/example-blog-post-6d9": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "952dbe61"
+  },
+  "/ui-portfolio-template/blog/tags-da6": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "aa5ab323"
+  },
+  "/ui-portfolio-template/blog/tags/freeform-07d": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "8b225d5c"
+      }
+    ],
+    "__props": "fc6dde30"
+  },
+  "/ui-portfolio-template/contact-d6b": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "66c10cbb"
+  },
+  "/ui-portfolio-template/markdown-page-667": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/ui-portfolio-template/projects-344": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "e007a4f0"
+  },
+  "/ui-portfolio-template/-bfd": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

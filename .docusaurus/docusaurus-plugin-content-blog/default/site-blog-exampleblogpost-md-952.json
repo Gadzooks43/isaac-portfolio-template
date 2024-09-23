@@ -1,0 +1,27 @@
+{
+  "permalink": "/ui-portfolio-template/blog/example-blog-post",
+  "source": "@site/blog/exampleblogpost.md",
+  "title": "Example Blog Post",
+  "description": "This is an example of a blog post for a homework assignment with an assigned reading.",
+  "date": "2024-08-26T14:30:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "FreeForm",
+      "permalink": "/ui-portfolio-template/blog/tags/freeform",
+      "description": "Share something that captured you from the reading in any format, citing your sources."
+    }
+  ],
+  "readingTime": 0.425,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "title": "Example Blog Post",
+    "slug": "/example-blog-post",
+    "date": "2024-08-26T14:30:00.000Z",
+    "tags": [
+      "freeform"
+    ]
+  },
+  "unlisted": false
+}
