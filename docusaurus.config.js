@@ -8,11 +8,11 @@ const config = {
   favicon: "img/favicon.ico",
 
   ////////////////////////////////////////////////////////////////////////////
-  url: "https://carlykendeigh.github.io", // Replace with your actual domain
-  baseUrl: "/ui-portfolio-template/",
+  url: "https://gadzooks43.github.io", // Replace with your actual domain
+  baseUrl: "/isaac-portfolio-template/",
 
-  organizationName: "carlykendeigh", // Replace with your GitHub org/user name
-  projectName: "ui-portfolio-template", // Replace with your repo/project name
+  organizationName: "Gadzooks43", // Replace with your GitHub org/user name
+  projectName: "Isaac-portfolio-template", // Replace with your repo/project name
   ////////////////////////////////////////////////////////////////////////////
 
   onBrokenLinks: "throw",
@@ -57,7 +57,7 @@ const config = {
           { to: "/contact", label: "Contact", position: "right" },
           {
             ////////////////////////////////////////////////////////////////////////////
-            href: "https://github.com/carlykendeigh/ui-portfolio-template",
+            href: "https://github.com/gadzooks43/isaac-portfolio-template",
             ////////////////////////////////////////////////////////////////////////////
             label: "GitHub",
             position: "right",
@@ -85,7 +85,7 @@ const config = {
               {
                 label: "GitHub",
                 ////////////////////////////////////////////////////////////////////////////
-                href: "https://github.com/carlykendeigh/ui-portfolio-template",
+                href: "https://github.com/gadzooks43/isaac-portfolio-template",
                 ////////////////////////////////////////////////////////////////////////////
               },
             ],
