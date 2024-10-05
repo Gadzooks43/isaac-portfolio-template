@@ -7,7 +7,7 @@ authors:
     url: https://github.com/Gadzooks43
 tags: [WordJournal]
 ---
-# design Rules Reading:
+# Design Systems Reading:
 
 So I just got done reading Nathan Curtis's article "Space, Grids, and Layouts in Design Systems," and the word that really sums it up for me is "foundation." I picked this word because he talks so much about how space, grids, and layouts are the basic building blocks of any design system, and without them, everything else kind of falls apart, it's like trying to build a house without a solid base, which obviously isn't going to work.
 
