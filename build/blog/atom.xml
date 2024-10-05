@@ -1,16 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://carlykendeigh.github.io/ui-portfolio-template/blog</id>
-    <title>Carly's Portfolio Blog</title>
-    <updated>2024-08-26T14:30:00.000Z</updated>
+    <id>https://gadzooks43.github.io/isaac-portfolio-template/blog</id>
+    <title>Isaac's Portfolio Blog</title>
+    <updated>2024-10-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://carlykendeigh.github.io/ui-portfolio-template/blog"/>
-    <subtitle>Carly's Portfolio Blog</subtitle>
-    <icon>https://carlykendeigh.github.io/ui-portfolio-template/img/favicon.ico</icon>
+    <link rel="alternate" href="https://gadzooks43.github.io/isaac-portfolio-template/blog"/>
+    <subtitle>Isaac's Portfolio Blog</subtitle>
+    <icon>https://gadzooks43.github.io/isaac-portfolio-template/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Museum Walk]]></title>
+        <id>https://gadzooks43.github.io/isaac-portfolio-template/blog/museum-walk</id>
+        <link href="https://gadzooks43.github.io/isaac-portfolio-template/blog/museum-walk"/>
+        <updated>2024-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[photo]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/pie-case-e5dad63ec9a87fed91040874d32a420c.png" width="461" height="318" class="img_ev3q"></p>
+<p>The art piece that I was inspired by is called "Pie Case". It is a painting from 1975 by Ralph Goings. Starting in the 1960s artists like Goings started painting very realistic and literal scenes of the ordinary things in the life of someone in their time. "Pie Case" is one of his most popular, it depicts a very standard bakery scene with donuts, pies, and a soda machine. Goings would start with his projects by taken many photos of things throughout his day and then decide on a project to start. One work could often take him a month to do as they were so realistic and took so long to paint every little detail.</p>
+<p>Rule of Thirds:</p>
+<p>The painting seems to be neetly seperated into a 3X3 column. The rows are very clear, the top being mostly blank, the bottom being mostly clear other than the donuts and some strange metal things that I don't exactly know how to identify. But the middle row is where the main focus is it has the bright and colorfull case full of pie that catch your eyes immediatly. In the columns it also seems to be sectioned well the first colum has the one set of pies; the second section has another set of pies; and the third section has the soda machine and another metal thing. So your eyes are mostly attracted to the center of the painting.</p>
+<p>Soegaard, Mads. “Rule of Thirds: The Definitive Guide &amp; Examples.” The Interaction Design Foundation, Interaction Design Foundation, 4 Oct. 2024, <a href="http://www.interaction-design.org/literature/article/rule-of-thirds-examples" target="_blank" rel="noopener noreferrer">www.interaction-design.org/literature/article/rule-of-thirds-examples</a></p>
+<p>Direction of the Eyes:</p>
+<p>My eyes were drawn to the very center of the painting where the pies are. I believe this is due to the very realistic lighting that is painted onto the scene, it makes the pies glisten and stick out, complimenting their goldren crusts. If by any chance this section is actually about people eyes in the painting, there are no people in the painting. Just wanted to add that. My eyes are not drawn toward the outsides as they are either bare or the are shaded darker, like the soda machine in the top right.</p>
+<p>“Light Attracts Eye.” Changingminds.Org, changingminds.org/explanations/perception/visual/light_attracts_eye.htm. Accessed 4 Oct. 2024.</p>
+<p>Color Balance:</p>
+<p>The color in the painting is very complex with it's shading. This is because it is painted to be very realistic so the number of different colors is large. But if you take out shading and focus on the main colors it is mostly a mix of light greens reds and browns. Browns being the table and pies and donuts and greens being the trays, a machine and the walls. So the pallete manages to stay confined in that sense. This seems to be able to be boiled down to Blue-Green, Red and Orange which I believe has harmony in the Split-Complimentary way. The use of lighting in the photo is the most interesting part. It lets the artist choose the focus of the painting just by adding light and shading. The painting could have been called "Donut Tray" if he had lit up the donuts and moved the image down 1/3.</p>
+<p>Ruud, Brandon &amp; Katz, Wendy &amp; Griffey, Randall &amp; Farber, Janet &amp; Veneciano, Jorge &amp; Feit, Sarah. (2011). Poetical Fire: Three Centuries of Still Lifes.</p>
+<p>UI:</p>
+<p><img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/donut-shop-dd7034ca73a19c3bab6bff9babb07c93.jpg" width="862" height="570" class="img_ev3q"></p>
+<p>My UI is a morning donut shop. Here every morning you can get a randomized set of three donuts that are available at the local shop. Then you can either keep those three donuts or spin for new ones. Once you have three donuts you are satisfied with you can go and checkout and head out to the donut shop to get your donuts and coffee. The peices of inspiration I am drawing are realistic donut icons, which match the realistic and breakfast dessert theme of the painting, the 3x3 column aspect that keeps the attention at the center and has minimal stuff around the edges, and finally I added some lighting and shading to the donuts so that they pop out and your eyes move to them similar to how the pies in the case are litten up.</p>
+<p>In this project I learned the importance of spacing and lighting in grabbing and focussing the attention of the audience/user. I learned how even with a large color pallete you can focus on a few main general colors to keep a color focus.</p>]]></content>
+        <author>
+            <name>Isaac Kenney</name>
+            <uri>https://github.com/Gadzooks43</uri>
+        </author>
+        <category label="Homework" term="Homework"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Systems]]></title>
+        <id>https://gadzooks43.github.io/isaac-portfolio-template/blog/design-systems</id>
+        <link href="https://gadzooks43.github.io/isaac-portfolio-template/blog/design-systems"/>
+        <updated>2024-10-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[So I just got done reading Nathan Curtis's article "Space, Grids, and Layouts in Design Systems," and the word that really sums it up for me is "foundation." I picked this word because he talks so much about how space, grids, and layouts are the basic building blocks of any design system, and without them, everything else kind of falls apart, it's like trying to build a house without a solid base, which obviously isn't going to work.]]></summary>
+        <content type="html"><![CDATA[<p>So I just got done reading Nathan Curtis's article "Space, Grids, and Layouts in Design Systems," and the word that really sums it up for me is "foundation." I picked this word because he talks so much about how space, grids, and layouts are the basic building blocks of any design system, and without them, everything else kind of falls apart, it's like trying to build a house without a solid base, which obviously isn't going to work.</p>
+<p>I think I learned a lot from this, especially about the importance of getting the basics right. By understanding spacing and grid layouts, I can create designs that not only look good but also work well, which is super important. It means I can build interfaces that provide consistent experiences across different platforms and devices, which is huge these days. So from this, I realized that focusing on the foundation will help me collaborate better with others, make the design process smoother, and in the end, create products that are intuitive and accessible.</p>
+<p><img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/foundation-30e5633898983b377d16b1a66173477f.jpg" width="2539" height="1904" class="img_ev3q">
+Photo by <a href="https://gadzooks43.github.io/photographer/mterraza-43107">mterraza</a> on <a href="https://gadzooks43.github.io/">Freeimages.com</a></p>]]></content>
+        <author>
+            <name>Isaac Kenney</name>
+            <uri>https://github.com/Gadzooks43</uri>
+        </author>
+        <category label="WordJournal" term="WordJournal"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Color Study]]></title>
+        <id>https://gadzooks43.github.io/isaac-portfolio-template/blog/color-study</id>
+        <link href="https://gadzooks43.github.io/isaac-portfolio-template/blog/color-study"/>
+        <updated>2024-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[photo]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/color-study-main-0def5e24a7bb59eec10cf744d84b3c54.png" width="1260" height="833" class="img_ev3q"></p>
+<p>The screen I chose was the antimalware software for my computer. The colors I see in this screen are Green, Orange, and Navy Blue. The closest thing I can find it matching is a Tweaked Triad, but you need to assume the navy is on the blue-violet part, not the blue part. This seems to convey a simple, safe and secure mood. I think this is the approach that the developers had in mind. It makes sense to make your anti malware software try and convey something safe and secure. It also has a minimal feel to it since the majority of the screen is the navy color with only very little green on the status and the orange in the logo. I think that this is also what the developers intended as Avast advertises itself as a simple cheaper option to the more standard in your face anti malware services.</p>
+<p><img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/color-study-recreate-main-03693837fb878331be7d544c87e90e58.png" width="793" height="508" class="img_ev3q"></p>
+<p>RED, ORANGE, YELLOW
+<img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/color-study-recreate-1-a7c978734a4253c004d43ef983432b9b.png" width="818" height="534" class="img_ev3q"></p>
+<p>RED, YELLOW-GREEN, GREEN-BLUE
+<img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/color-study-recreate-2-6a98335e476dcf3136f0498a5bad47f9.png" width="862" height="568" class="img_ev3q"></p>
+<p>VIOLET, BLUE-VIOLET, GREEN-BLUE
+<img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/color-study-recreate-3-678032b8ad3616585efd7d4d01fe8b99.png" width="795" height="516" class="img_ev3q"></p>
+<p>I think out of the ones that I created, the last one with violet, blue-violet, and blue-green was the most effective. But the original color scheme I think gets the point across the best. I think that the one I created is more effective than the other two because the other two use a lot of unsafe warm colors for larger parts of the screen. The warmer colors convey warning and a need for attention while the navy and green are safe and calm which is better for this app. I am defining the most effective one by the one that achieves what the developers attempted to achieve in their version of the app.</p>]]></content>
+        <author>
+            <name>Isaac Kenney</name>
+            <uri>https://github.com/Gadzooks43</uri>
+        </author>
+        <category label="Homework" term="Homework"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Colors 1]]></title>
+        <id>https://gadzooks43.github.io/isaac-portfolio-template/blog/colors-1</id>
+        <link href="https://gadzooks43.github.io/isaac-portfolio-template/blog/colors-1"/>
+        <updated>2024-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This section had a bunch of definitions that we had touched on in class. But we didn’t cover complex colors very much. I didn’t really know that metalics and such things were classified as colors so I thought this section was interesting. I thought it was cool how we can hear that we are drawn to the changing color of complex colors probably because that is how the water looks. So, it would have been beneficial in order to notice water sources.]]></summary>
+        <content type="html"><![CDATA[<p>This section had a bunch of definitions that we had touched on in class. But we didn’t cover complex colors very much. I didn’t really know that metalics and such things were classified as colors so I thought this section was interesting. I thought it was cool how we can hear that we are drawn to the changing color of complex colors probably because that is how the water looks. So, it would have been beneficial in order to notice water sources.</p>
+<p><img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/metalic-water-6ae8dcf9d5ca45f325453e7c13f370fa.jpg" width="1800" height="1296" class="img_ev3q">
+Photo by crazyhorse on Freeimages.com</p>]]></content>
+        <author>
+            <name>Isaac Kenney</name>
+            <uri>https://github.com/Gadzooks43</uri>
+        </author>
+        <category label="FreeForm" term="FreeForm"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Colors 2]]></title>
+        <id>https://gadzooks43.github.io/isaac-portfolio-template/blog/colors-2</id>
+        <link href="https://gadzooks43.github.io/isaac-portfolio-template/blog/colors-2"/>
+        <updated>2024-09-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the reading it goes over the psychology of colors, and how each of the different main colors makes up feel, and what it is used to represent. I’ve made a diagram of some of the words I thought up for the colors.]]></summary>
+        <content type="html"><![CDATA[<p>In the reading it goes over the psychology of colors, and how each of the different main colors makes up feel, and what it is used to represent. I’ve made a diagram of some of the words I thought up for the colors.</p>
+<p><img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/color-wheel-503cd8d53f4581d1684f090156d15717.png" width="1299" height="832" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Isaac Kenney</name>
+            <uri>https://github.com/Gadzooks43</uri>
+        </author>
+        <category label="ConceptMap" term="ConceptMap"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aesthetic Design]]></title>
+        <id>https://gadzooks43.github.io/isaac-portfolio-template/blog/aesthetic-design</id>
+        <link href="https://gadzooks43.github.io/isaac-portfolio-template/blog/aesthetic-design"/>
+        <updated>2024-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[“Whitespace is to GUI’s as the O’line is to a football team's offense.”]]></summary>
+        <content type="html"><![CDATA[<p>“Whitespace is to GUI’s as the O’line is to a football team's offense.”</p>
+<p>The offensive line has the most underappreciated positions in football by the viewers. They don’t make catches, tackles, or even touch the ball after the center snaps it, yet a strong offensive line can make a 3rd string quarterback look like Tom Brady and a backup running back like Adrian Peterson. Similarly important to a GUI is the use of whitespace. Its effects are not directly noticed by the user but the only reason the user gets to look at the website and say “wow this looks so pretty” is because proper spacing and utilization of whitespace was used to create order for the components. Linemen block in certain directions to create gaps in the defense for a running back to capitalize on, and similarly whitespace helps our eyes move smoothly through the interface, helping us interpret things one piece at a time. This concept is important for my career because as I create GUI’s I need to remember to not just cram together my functionality, but to utilize the whole page to neatly display my content and use whitespace as a funnel or container for my components.</p>
+<p><img decoding="async" loading="lazy" alt="photo" src="https://gadzooks43.github.io/isaac-portfolio-template/assets/images/offensive_lineman-c429768759c016932dfc0cf3c0474d59.webp" width="1024" height="1024" class="img_ev3q">
+This image was generated by chatGPT 4o
+<a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">https://chatgpt.com/</a></p>]]></content>
+        <author>
+            <name>Isaac Kenney</name>
+            <uri>https://github.com/Gadzooks43</uri>
+        </author>
+        <category label="ApproximateAnalogy" term="ApproximateAnalogy"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Rules]]></title>
+        <id>https://gadzooks43.github.io/isaac-portfolio-template/blog/design-rules</id>
+        <link href="https://gadzooks43.github.io/isaac-portfolio-template/blog/design-rules"/>
+        <updated>2024-09-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week I read chapters 2-5 of "Don't Make Me Think" by Steve Krug, and if I had to pick one word to sum up what really stuck with me, it’s gotta be “Clarity.” Krug talks about how people don’t actually read websites, they just scan them quick, looking for the first thing that catches their eye, and they don’t choose the best option, they just pick whatever looks good enough and they don’t really try to figure out how stuff works they just muddle through and hope it does.]]></summary>
+        <content type="html"><![CDATA[<p>This week I read chapters 2-5 of "Don't Make Me Think" by Steve Krug, and if I had to pick one word to sum up what really stuck with me, it’s gotta be “Clarity.” Krug talks about how people don’t actually read websites, they just scan them quick, looking for the first thing that catches their eye, and they don’t choose the best option, they just pick whatever looks good enough and they don’t really try to figure out how stuff works they just muddle through and hope it does.</p>
+<p>This idea totally hit home for me because it made me realize how much more important it is to make things clear and simple than to make them flashy or complex, like if a web page is confusing or makes people think too much they’re just gonna leave, they won’t even bother trying to figure it out. Krug’s idea that a web page should be like a billboard you’re passing at 60 mph really nails it, it’s gotta be so obvious what you’re supposed to do that you don’t have to stop and think.</p>
+<p>Now, thinking about clarity like this changed how I see design and usability, I used to think that adding more features and making things look cool was what mattered most, but now I see none of that means anything if people can’t understand what they’re looking at or what they’re supposed to do, clarity is what makes or breaks a product and if it’s not clear, it’s not gonna work, people will just go somewhere else.</p>]]></content>
+        <author>
+            <name>Isaac Kenney</name>
+            <uri>https://github.com/Gadzooks43</uri>
+        </author>
+        <category label="WordJournal" term="WordJournal"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Example Blog Post]]></title>
-        <id>https://carlykendeigh.github.io/ui-portfolio-template/blog/example-blog-post</id>
-        <link href="https://carlykendeigh.github.io/ui-portfolio-template/blog/example-blog-post"/>
+        <id>https://gadzooks43.github.io/isaac-portfolio-template/blog/example-blog-post</id>
+        <link href="https://gadzooks43.github.io/isaac-portfolio-template/blog/example-blog-post"/>
         <updated>2024-08-26T14:30:00.000Z</updated>
         <summary type="html"><![CDATA[This is an example of a blog post for a homework assignment with an assigned reading.]]></summary>
         <content type="html"><![CDATA[<p>This is an example of a blog post for a homework assignment with an assigned reading.

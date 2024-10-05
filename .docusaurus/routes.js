@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/isaac-portfolio-template/__docusaurus/debug',
-    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug', '349'),
-    exact: true
-  },
-  {
-    path: '/isaac-portfolio-template/__docusaurus/debug/config',
-    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/config', '39e'),
-    exact: true
-  },
-  {
-    path: '/isaac-portfolio-template/__docusaurus/debug/content',
-    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/content', 'ece'),
-    exact: true
-  },
-  {
-    path: '/isaac-portfolio-template/__docusaurus/debug/globalData',
-    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/globalData', '618'),
-    exact: true
-  },
-  {
-    path: '/isaac-portfolio-template/__docusaurus/debug/metadata',
-    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/metadata', '7b6'),
-    exact: true
-  },
-  {
-    path: '/isaac-portfolio-template/__docusaurus/debug/registry',
-    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/registry', 'd8e'),
-    exact: true
-  },
-  {
-    path: '/isaac-portfolio-template/__docusaurus/debug/routes',
-    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/routes', '606'),
-    exact: true
-  },
-  {
     path: '/isaac-portfolio-template/about-me',
     component: ComponentCreator('/isaac-portfolio-template/about-me', '0f1'),
     exact: true
