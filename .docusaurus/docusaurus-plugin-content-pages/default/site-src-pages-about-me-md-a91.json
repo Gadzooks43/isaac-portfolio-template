@@ -1,6 +1,6 @@
 {
   "type": "mdx",
-  "permalink": "/ui-portfolio-template/about-me",
+  "permalink": "/isaac-portfolio-template/about-me",
   "source": "@site/src/pages/about-me.md",
   "title": "About Me",
   "description": "Welcome to my portfolio! Here, you can find information about my skills, experience, and background.",

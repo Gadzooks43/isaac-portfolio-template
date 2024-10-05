@@ -1,5 +1,5 @@
 {
-  "permalink": "/ui-portfolio-template/blog/example-blog-post",
+  "permalink": "/isaac-portfolio-template/blog/example-blog-post",
   "source": "@site/blog/exampleblogpost.md",
   "title": "Example Blog Post",
   "description": "This is an example of a blog post for a homework assignment with an assigned reading.",
@@ -8,7 +8,7 @@
     {
       "inline": false,
       "label": "FreeForm",
-      "permalink": "/ui-portfolio-template/blog/tags/freeform",
+      "permalink": "/isaac-portfolio-template/blog/tags/freeform",
       "description": "Share something that captured you from the reading in any format, citing your sources."
     }
   ],
@@ -23,5 +23,9 @@
       "freeform"
     ]
   },
-  "unlisted": false
+  "unlisted": false,
+  "prevItem": {
+    "title": "Design Rules",
+    "permalink": "/isaac-portfolio-template/blog/design-rules"
+  }
 }

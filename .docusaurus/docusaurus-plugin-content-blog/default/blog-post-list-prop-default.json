@@ -2,8 +2,28 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Example Blog Post",
-      "permalink": "/ui-portfolio-template/blog/example-blog-post",
+      "title": "Museum Walk",
+      "permalink": "/isaac-portfolio-template/blog/museum-walk",
+      "unlisted": false
+    },
+    {
+      "title": "Design Systems",
+      "permalink": "/isaac-portfolio-template/blog/design-systems",
+      "unlisted": false
+    },
+    {
+      "title": "Color Study",
+      "permalink": "/isaac-portfolio-template/blog/color-study",
+      "unlisted": false
+    },
+    {
+      "title": "Colors 1",
+      "permalink": "/isaac-portfolio-template/blog/colors-1",
+      "unlisted": false
+    },
+    {
+      "title": "Colors 2",
+      "permalink": "/isaac-portfolio-template/blog/colors-2",
       "unlisted": false
     }
   ]

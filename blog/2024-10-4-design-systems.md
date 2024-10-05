@@ -13,4 +13,5 @@ So I just got done reading Nathan Curtis's article "Space, Grids, and Layouts in
 
 I think I learned a lot from this, especially about the importance of getting the basics right. By understanding spacing and grid layouts, I can create designs that not only look good but also work well, which is super important. It means I can build interfaces that provide consistent experiences across different platforms and devices, which is huge these days. So from this, I realized that focusing on the foundation will help me collaborate better with others, make the design process smoother, and in the end, create products that are intuitive and accessible.
 
+![photo](foundation.jpg)
 Photo by <a href="/photographer/mterraza-43107">mterraza</a> on <a href="/">Freeimages.com</a>

@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Carly's Portfolio",
+  "title": "Isaac's Portfolio",
   "tagline": "Showcasing My Work and Thoughts",
   "favicon": "img/favicon.ico",
-  "url": "https://carlykendeigh.github.io",
-  "baseUrl": "/ui-portfolio-template/",
-  "organizationName": "carlykendeigh",
-  "projectName": "ui-portfolio-template",
+  "url": "https://gadzooks43.github.io",
+  "baseUrl": "/isaac-portfolio-template/",
+  "organizationName": "Gadzooks43",
+  "projectName": "Isaac-portfolio-template",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -30,7 +30,7 @@ export default {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/carlykendeigh/Documents/GitHub/carlyuiportfolio/src/css/custom.css"
+          "customCss": "C:\\Users\\Isaac\\Desktop\\HUI\\isaac-portfolio-template\\src\\css\\custom.css"
         }
       }
     ]
@@ -65,7 +65,7 @@ export default {
           "position": "right"
         },
         {
-          "href": "https://github.com/carlykendeigh/ui-portfolio-template",
+          "href": "https://github.com/gadzooks43/isaac-portfolio-template",
           "label": "GitHub",
           "position": "right"
         }
@@ -107,7 +107,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/carlykendeigh/ui-portfolio-template"
+              "href": "https://github.com/gadzooks43/isaac-portfolio-template"
             }
           ]
         }
