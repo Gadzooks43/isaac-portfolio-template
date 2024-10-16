@@ -9,4 +9,4 @@ tags: [Final Project]
 ---
 # Design System Final Project:
 
-![photo](design-system-light-phone.pdf)
+![photo](design-system-final.svg)
