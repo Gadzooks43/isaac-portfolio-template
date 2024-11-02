@@ -8,5 +8,3 @@ authors:
 tags: [WordJournal]
 ---
 # Inclusive Design 2 Reading:
-
-![photo]()

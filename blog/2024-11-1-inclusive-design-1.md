@@ -9,4 +9,3 @@ tags: [WordJournal]
 ---
 # Inclusive Design 1 Reading:
 
-![photo]()
