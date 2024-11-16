@@ -1,13 +1,13 @@
 ---
-slug: colleague-assessment-debrief
-title: Colleague Assessment Debrief
+slug: user-test-changes
+title: User Test Changes
 authors:
   - name: Isaac Kenney
     title: Student
     url: https://github.com/Gadzooks43
 tags: [Final Project]
 ---
-# Colleague Assessment Debrief:
+# User Test Changes:
 
 ![photo](mockups-and-design-system.png)
 <!-- 
