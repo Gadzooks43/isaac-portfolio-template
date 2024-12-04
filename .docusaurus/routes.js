@@ -3,13 +3,48 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/isaac-portfolio-template/__docusaurus/debug',
+    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug', '349'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/__docusaurus/debug/config',
+    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/config', '39e'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/__docusaurus/debug/content',
+    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/content', 'ece'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/__docusaurus/debug/globalData',
+    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/globalData', '618'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/__docusaurus/debug/metadata',
+    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/metadata', '7b6'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/__docusaurus/debug/registry',
+    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/registry', 'd8e'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/__docusaurus/debug/routes',
+    component: ComponentCreator('/isaac-portfolio-template/__docusaurus/debug/routes', '606'),
+    exact: true
+  },
+  {
     path: '/isaac-portfolio-template/about-me',
     component: ComponentCreator('/isaac-portfolio-template/about-me', '0f1'),
     exact: true
   },
   {
     path: '/isaac-portfolio-template/blog',
-    component: ComponentCreator('/isaac-portfolio-template/blog', 'b0b'),
+    component: ComponentCreator('/isaac-portfolio-template/blog', '0ea'),
     exact: true
   },
   {
@@ -20,6 +55,11 @@ export default [
   {
     path: '/isaac-portfolio-template/blog/archive',
     component: ComponentCreator('/isaac-portfolio-template/blog/archive', '592'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/colleague-assessment-debrief',
+    component: ComponentCreator('/isaac-portfolio-template/blog/colleague-assessment-debrief', '312'),
     exact: true
   },
   {
@@ -38,8 +78,28 @@ export default [
     exact: true
   },
   {
+    path: '/isaac-portfolio-template/blog/debreifing-user-tests',
+    component: ComponentCreator('/isaac-portfolio-template/blog/debreifing-user-tests', 'c26'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/design-evolution-narrative',
+    component: ComponentCreator('/isaac-portfolio-template/blog/design-evolution-narrative', '49a'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/design-narratives',
+    component: ComponentCreator('/isaac-portfolio-template/blog/design-narratives', 'b5f'),
+    exact: true
+  },
+  {
     path: '/isaac-portfolio-template/blog/design-rules',
     component: ComponentCreator('/isaac-portfolio-template/blog/design-rules', 'b31'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/design-system-final',
+    component: ComponentCreator('/isaac-portfolio-template/blog/design-system-final', '314'),
     exact: true
   },
   {
@@ -49,12 +109,52 @@ export default [
   },
   {
     path: '/isaac-portfolio-template/blog/example-blog-post',
+    component: ComponentCreator('/isaac-portfolio-template/blog/example-blog-post', 'd62'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/example-blog-post',
     component: ComponentCreator('/isaac-portfolio-template/blog/example-blog-post', 'a17'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/feedback-workshop',
+    component: ComponentCreator('/isaac-portfolio-template/blog/feedback-workshop', '7e3'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/inclusive-design-1',
+    component: ComponentCreator('/isaac-portfolio-template/blog/inclusive-design-1', '6c9'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/inclusive-design-2',
+    component: ComponentCreator('/isaac-portfolio-template/blog/inclusive-design-2', 'ff6'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/mockups-reading',
+    component: ComponentCreator('/isaac-portfolio-template/blog/mockups-reading', 'a15'),
     exact: true
   },
   {
     path: '/isaac-portfolio-template/blog/museum-walk',
     component: ComponentCreator('/isaac-portfolio-template/blog/museum-walk', '892'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/navigation-and-values',
+    component: ComponentCreator('/isaac-portfolio-template/blog/navigation-and-values', 'ca4'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/page/2',
+    component: ComponentCreator('/isaac-portfolio-template/blog/page/2', '095'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/page/3',
+    component: ComponentCreator('/isaac-portfolio-template/blog/page/3', '8dc'),
     exact: true
   },
   {
@@ -73,13 +173,18 @@ export default [
     exact: true
   },
   {
+    path: '/isaac-portfolio-template/blog/tags/final-project',
+    component: ComponentCreator('/isaac-portfolio-template/blog/tags/final-project', '778'),
+    exact: true
+  },
+  {
     path: '/isaac-portfolio-template/blog/tags/free-form',
     component: ComponentCreator('/isaac-portfolio-template/blog/tags/free-form', '919'),
     exact: true
   },
   {
     path: '/isaac-portfolio-template/blog/tags/freeform',
-    component: ComponentCreator('/isaac-portfolio-template/blog/tags/freeform', 'b73'),
+    component: ComponentCreator('/isaac-portfolio-template/blog/tags/freeform', '4c9'),
     exact: true
   },
   {
@@ -89,7 +194,17 @@ export default [
   },
   {
     path: '/isaac-portfolio-template/blog/tags/word-journal',
-    component: ComponentCreator('/isaac-portfolio-template/blog/tags/word-journal', '66e'),
+    component: ComponentCreator('/isaac-portfolio-template/blog/tags/word-journal', '552'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/user-test-changes',
+    component: ComponentCreator('/isaac-portfolio-template/blog/user-test-changes', 'bef'),
+    exact: true
+  },
+  {
+    path: '/isaac-portfolio-template/blog/user-testing',
+    component: ComponentCreator('/isaac-portfolio-template/blog/user-testing', 'd14'),
     exact: true
   },
   {

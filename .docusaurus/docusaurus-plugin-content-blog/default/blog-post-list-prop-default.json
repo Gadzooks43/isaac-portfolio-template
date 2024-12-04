@@ -2,28 +2,28 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Museum Walk",
-      "permalink": "/isaac-portfolio-template/blog/museum-walk",
+      "title": "Design Evolution Narrative",
+      "permalink": "/isaac-portfolio-template/blog/design-evolution-narrative",
       "unlisted": false
     },
     {
-      "title": "Design Systems",
-      "permalink": "/isaac-portfolio-template/blog/design-systems",
+      "title": "User Test Changes",
+      "permalink": "/isaac-portfolio-template/blog/user-test-changes",
       "unlisted": false
     },
     {
-      "title": "Color Study",
-      "permalink": "/isaac-portfolio-template/blog/color-study",
+      "title": "Colleague Assessment Debrief",
+      "permalink": "/isaac-portfolio-template/blog/colleague-assessment-debrief",
       "unlisted": false
     },
     {
-      "title": "Colors 1",
-      "permalink": "/isaac-portfolio-template/blog/colors-1",
+      "title": "Inclusive Design 1 Reading",
+      "permalink": "/isaac-portfolio-template/blog/inclusive-design-1",
       "unlisted": false
     },
     {
-      "title": "Colors 2",
-      "permalink": "/isaac-portfolio-template/blog/colors-2",
+      "title": "Inclusive Design 2 Reading",
+      "permalink": "/isaac-portfolio-template/blog/inclusive-design-2",
       "unlisted": false
     }
   ]

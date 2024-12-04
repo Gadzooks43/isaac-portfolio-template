@@ -45,15 +45,12 @@ const config = {
     ({
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My UI Portfolio",
+        title: "Isaac Kenney Portfolio",
         logo: {
           alt: "My UI Portfolio Logo",
           src: "img/logo.svg",
         },
         items: [
-          { to: "/about-me", label: "About Me", position: "left" },
-          { to: "/projects", label: "Projects", position: "left" },
-          { to: "/blog", label: "Blog", position: "left" },
           { to: "/contact", label: "Contact", position: "right" },
           {
             ////////////////////////////////////////////////////////////////////////////
@@ -64,35 +61,35 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "About Me",
-            items: [{ label: "About Me", to: "/about-me" }],
-          },
-          {
-            title: "Projects",
-            items: [{ label: "Projects", to: "/projects" }],
-          },
-          {
-            title: "Blog",
-            items: [{ label: "Blog", to: "/blog" }],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "GitHub",
-                ////////////////////////////////////////////////////////////////////////////
-                href: "https://github.com/gadzooks43/isaac-portfolio-template",
-                ////////////////////////////////////////////////////////////////////////////
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My UI Portfolio. Built with Docusaurus.`,
-      },
+      // footer: {
+      //   style: "dark",
+      //   links: [
+      //     // {
+      //     //   title: "About Me",
+      //     //   items: [{ label: "About Me", to: "/about-me" }],
+      //     // },
+      //     // {
+      //     //   title: "Projects",
+      //     //   items: [{ label: "Projects", to: "/projects" }],
+      //     // },
+      //     // {
+      //     //   title: "Blog",
+      //     //   items: [{ label: "Blog", to: "/blog" }],
+      //     // },
+      //     // {
+      //     //   title: "Community",
+      //     //   items: [
+      //     //     {
+      //     //       label: "GitHub",
+      //     //       ////////////////////////////////////////////////////////////////////////////
+      //     //       href: "https://github.com/gadzooks43/isaac-portfolio-template",
+      //     //       ////////////////////////////////////////////////////////////////////////////
+      //     //     },
+      //     //   ],
+      //     // },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} My UI Portfolio. Built with Docusaurus.`,
+      // },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

@@ -1,258 +1,552 @@
 {
-  "/isaac-portfolio-template/about-me-0f1": {
-    "__comp": "1f391b9e",
+  "/isaac-portfolio-template/__docusaurus/debug-349": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "a91b54f4"
+      "plugin": "plugin---isaac-portfolio-template-docusaurus-debugb-38-370"
+    }
   },
-  "/isaac-portfolio-template/blog-b0b": {
-    "__comp": "a6aa9e1f",
+  "/isaac-portfolio-template/__docusaurus/debug/config-39e": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-docusaurus-debugb-38-370"
+    }
+  },
+  "/isaac-portfolio-template/__docusaurus/debug/content-ece": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-docusaurus-debugb-38-370"
     },
-    "sidebar": "814f3328",
+    "__props": "__props---isaac-portfolio-template-docusaurus-debug-content-70-c-8f6"
+  },
+  "/isaac-portfolio-template/__docusaurus/debug/globalData-618": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-docusaurus-debugb-38-370"
+    }
+  },
+  "/isaac-portfolio-template/__docusaurus/debug/metadata-7b6": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-docusaurus-debugb-38-370"
+    }
+  },
+  "/isaac-portfolio-template/__docusaurus/debug/registry-d8e": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-docusaurus-debugb-38-370"
+    }
+  },
+  "/isaac-portfolio-template/__docusaurus/debug/routes-606": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-docusaurus-debugb-38-370"
+    }
+  },
+  "/isaac-portfolio-template/about-me-0f1": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-about-mea-74-6ae"
+    },
+    "content": "content---isaac-portfolio-template-about-mea-91-e78"
+  },
+  "/isaac-portfolio-template/blog-0ea": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
     "items": [
       {
-        "content": "162e0cc9"
+        "content": "content---isaac-portfolio-template-blog-3-ab-af5"
       },
       {
-        "content": "3e9d2647"
+        "content": "content---isaac-portfolio-template-blogcad-24a"
       },
       {
-        "content": "86ea3811"
+        "content": "content---isaac-portfolio-template-blog-387-43a"
       },
       {
-        "content": "c97475a6"
+        "content": "content---isaac-portfolio-template-blog-195-2f1"
       },
       {
-        "content": "094977ff"
+        "content": "content---isaac-portfolio-template-blogf-65-848"
       },
       {
-        "content": "45025ecc"
+        "content": "content---isaac-portfolio-template-blogf-31-5de"
       },
       {
-        "content": "1167f852"
+        "content": "content---isaac-portfolio-template-blog-96-e-d33"
       },
       {
-        "content": "8b225d5c"
+        "content": "content---isaac-portfolio-template-blog-162-36f"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blogb-8-d-60b"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-17-f-de8"
       }
     ],
-    "__props": "75dc7479"
+    "__props": "__props---isaac-portfolio-template-blog-75-d-3e1"
   },
   "/isaac-portfolio-template/blog/aesthetic-design-9c4": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
-    "content": "eb26596d"
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-aesthetic-designeb-2-4fa"
   },
   "/isaac-portfolio-template/blog/archive-592": {
-    "__comp": "9e4087bc",
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "__props": "b7245d63"
+    "__props": "__props---isaac-portfolio-template-blog-archiveb-72-ce9"
+  },
+  "/isaac-portfolio-template/blog/colleague-assessment-debrief-312": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-colleague-assessment-debriefa-77-f60"
   },
   "/isaac-portfolio-template/blog/color-study-125": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
-    "content": "f79d4c94"
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-color-studyf-79-1a3"
   },
   "/isaac-portfolio-template/blog/colors-1-9cc": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
-    "content": "72fb0b66"
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-colors-172-f-a1b"
   },
   "/isaac-portfolio-template/blog/colors-2-d1c": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
-    "content": "cd96a7e6"
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-colors-2-cd-9-3b6"
+  },
+  "/isaac-portfolio-template/blog/debreifing-user-tests-c26": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-debreifing-user-tests-585-b6d"
+  },
+  "/isaac-portfolio-template/blog/design-evolution-narrative-49a": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-design-evolution-narrative-002-168"
+  },
+  "/isaac-portfolio-template/blog/design-narratives-b5f": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-design-narratives-9-e-5-072"
   },
   "/isaac-portfolio-template/blog/design-rules-b31": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
-    "content": "773795ec"
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-design-rules-773-245"
+  },
+  "/isaac-portfolio-template/blog/design-system-final-314": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-design-system-final-60-a-807"
   },
   "/isaac-portfolio-template/blog/design-systems-ae6": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
-    "content": "e2f7dc62"
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-design-systemse-2-f-443"
+  },
+  "/isaac-portfolio-template/blog/example-blog-post-d62": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-example-blog-post-56-a-e01"
   },
   "/isaac-portfolio-template/blog/example-blog-post-a17": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
-    "content": "952dbe61"
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-example-blog-post-952-d47"
+  },
+  "/isaac-portfolio-template/blog/feedback-workshop-7e3": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-feedback-workshope-8-b-24f"
+  },
+  "/isaac-portfolio-template/blog/inclusive-design-1-6c9": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-inclusive-design-1-eb-9-178"
+  },
+  "/isaac-portfolio-template/blog/inclusive-design-2-ff6": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-inclusive-design-2-a-54-235"
+  },
+  "/isaac-portfolio-template/blog/mockups-reading-a15": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-mockups-reading-666-d8d"
   },
   "/isaac-portfolio-template/blog/museum-walk-892": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
-    "content": "60da8f3a"
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-museum-walk-60-d-1b9"
+  },
+  "/isaac-portfolio-template/blog/navigation-and-values-ca4": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-navigation-and-values-304-421"
+  },
+  "/isaac-portfolio-template/blog/page/2-095": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "items": [
+      {
+        "content": "content---isaac-portfolio-template-blog-page-2-bf-2-0b6"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-23-d-6-135"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-2-ef-5-700"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-23-e-9-7fb"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-286-e-ecb"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-2-c-97-92a"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-2094-aa9"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-2450-ce3"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-2116-d29"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-28-b-2-703"
+      }
+    ],
+    "__props": "__props---isaac-portfolio-template-blog-page-25-ca-41d"
+  },
+  "/isaac-portfolio-template/blog/page/3-8dc": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "items": [
+      {
+        "content": "content---isaac-portfolio-template-blog-page-28-b-2-703"
+      }
+    ],
+    "__props": "__props---isaac-portfolio-template-blog-page-387-d-799"
   },
   "/isaac-portfolio-template/blog/tags-2d1": {
-    "__comp": "01a85c17",
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
-    "__props": "7913cba5"
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "__props": "__props---isaac-portfolio-template-blog-tags-791-e38"
   },
   "/isaac-portfolio-template/blog/tags/approximate-analogy-a50": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
     "items": [
       {
-        "content": "45025ecc"
+        "content": "content---isaac-portfolio-template-blog-page-2450-ce3"
       }
     ],
-    "__props": "21c71454"
+    "__props": "__props---isaac-portfolio-template-blog-tags-approximate-analogy-21-c-df0"
   },
   "/isaac-portfolio-template/blog/tags/concept-map-cce": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
     "items": [
       {
-        "content": "094977ff"
+        "content": "content---isaac-portfolio-template-blog-page-2094-aa9"
       }
     ],
-    "__props": "fb985de6"
+    "__props": "__props---isaac-portfolio-template-blog-tags-concept-mapfb-9-872"
+  },
+  "/isaac-portfolio-template/blog/tags/final-project-778": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "items": [
+      {
+        "content": "content---isaac-portfolio-template-blog-3-ab-af5"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blogcad-24a"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-387-43a"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-23-d-6-135"
+      }
+    ],
+    "__props": "__props---isaac-portfolio-template-blog-tags-final-project-50-d-f4b"
   },
   "/isaac-portfolio-template/blog/tags/free-form-919": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
     "items": [
       {
-        "content": "c97475a6"
+        "content": "content---isaac-portfolio-template-blog-page-2-c-97-92a"
       }
     ],
-    "__props": "bcfb6a5e"
+    "__props": "__props---isaac-portfolio-template-blog-tags-free-formbcf-492"
   },
-  "/isaac-portfolio-template/blog/tags/freeform-b73": {
-    "__comp": "6875c492",
+  "/isaac-portfolio-template/blog/tags/freeform-4c9": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
     "items": [
       {
-        "content": "8b225d5c"
+        "content": "content---isaac-portfolio-template-blog-page-28-b-2-703"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-28-b-2-703"
       }
     ],
-    "__props": "0117adcb"
+    "__props": "__props---isaac-portfolio-template-blog-tags-freeform-011-968"
   },
   "/isaac-portfolio-template/blog/tags/homework-576": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
     "items": [
       {
-        "content": "162e0cc9"
+        "content": "content---isaac-portfolio-template-blog-162-36f"
       },
       {
-        "content": "86ea3811"
+        "content": "content---isaac-portfolio-template-blog-page-286-e-ecb"
       }
     ],
-    "__props": "0ae5c679"
+    "__props": "__props---isaac-portfolio-template-blog-tags-homework-0-ae-d59"
   },
-  "/isaac-portfolio-template/blog/tags/word-journal-66e": {
-    "__comp": "6875c492",
+  "/isaac-portfolio-template/blog/tags/word-journal-552": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
     "items": [
       {
-        "content": "3e9d2647"
+        "content": "content---isaac-portfolio-template-blog-195-2f1"
       },
       {
-        "content": "1167f852"
+        "content": "content---isaac-portfolio-template-blogf-65-848"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blogf-31-5de"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-96-e-d33"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blogb-8-d-60b"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-17-f-de8"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-2-bf-2-0b6"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-2-ef-5-700"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-23-e-9-7fb"
+      },
+      {
+        "content": "content---isaac-portfolio-template-blog-page-2116-d29"
       }
     ],
-    "__props": "ae48c72f"
+    "__props": "__props---isaac-portfolio-template-blog-tags-word-journalae-4-369"
+  },
+  "/isaac-portfolio-template/blog/user-test-changes-bef": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-user-test-changes-2-d-9-57b"
+  },
+  "/isaac-portfolio-template/blog/user-testing-d14": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---isaac-portfolio-template-blog-aesthetic-designace-9bc"
+      },
+      "plugin": "plugin---isaac-portfolio-template-blog-369-b30"
+    },
+    "sidebar": "sidebar---isaac-portfolio-template-blog-814-6c6",
+    "content": "content---isaac-portfolio-template-blog-user-testingafc-e0f"
   },
   "/isaac-portfolio-template/contact-b54": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---isaac-portfolio-template-about-mea-74-6ae"
     },
-    "content": "66c10cbb"
+    "content": "content---isaac-portfolio-template-contact-66-c-a3c"
   },
   "/isaac-portfolio-template/markdown-page-258": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---isaac-portfolio-template-about-mea-74-6ae"
     },
-    "content": "393be207"
+    "content": "content---isaac-portfolio-template-markdown-page-393-992"
   },
   "/isaac-portfolio-template/projects-81a": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---isaac-portfolio-template-about-mea-74-6ae"
     },
-    "content": "e007a4f0"
+    "content": "content---isaac-portfolio-template-projectse-00-991"
   },
   "/isaac-portfolio-template/-31b": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---isaac-portfolio-template-about-mea-74-6ae"
     },
-    "config": "5e9f5e1a"
+    "config": "config---isaac-portfolio-template-5-e-9-303"
   }
 }
