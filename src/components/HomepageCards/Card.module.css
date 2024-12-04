@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -18,7 +18,7 @@
   
   .card:hover,
   .card:focus {
-    /* transform: scale(1.05); */
+    /* transform: scale(1.05); */ /* User commented this out */
     background: #bbb;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
@@ -39,6 +39,8 @@
     background: white;
     z-index: 1001;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: all 0.3s ease;
   }
   
   .expandedContent {
@@ -46,9 +48,17 @@
     height: 100%;
     padding: 1.5rem;
     box-sizing: border-box;
-    overflow-y: auto;
-    position: relative;
+    overflow: hidden; /* Remove scrollbar from expanded card */
+    display: flex;
+    flex-direction: column;
   }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }  
   
   .expandedTitle {
     margin-top: 0;
@@ -56,26 +66,55 @@
     font-size: 1.8rem;
     color: #333;
   }
-  
-  .markdownContent {
-    width: 100%;
-    overflow-y: auto;
-    max-height: 70%;
-  }
-  
+
   .closeButton {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    right: 0;
     background: transparent;
     border: none;
     font-size: 2rem;
     cursor: pointer;
     color: #333;
   }
-  
+
   .closeButton:hover {
     color: #555;
+  }
+  
+  .content {
+    display: flex;
+    height: 100%;
+    margin-top: 1rem;
+  }
+  
+  .sidebar {
+    width: 33.33%;
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .sidebarItem {
+    padding: 0.5rem 0;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .sidebarItem:hover,
+  .sidebarItem:focus {
+    text-decoration: underline;
+  }
+  
+  .activeSidebarItem {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  .markdownContent {
+    flex: 1; /* Make this section grow to fill available space */
+    padding-left: 1rem;
+    box-sizing: border-box;
   }
   
   .loader {
@@ -94,9 +133,24 @@
     animation: spin 1s linear infinite;
   }
   
+  
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+  }
+  
+  /* Custom Scrollbar Styles via SimpleBar */
+  .markdownContent .simplebar-scrollbar::before {
+    background-color: #888; /* Scrollbar thumb color */
+  }
+  
+  .markdownContent .simplebar-scrollbar:hover::before {
+    background-color: #555; /* Scrollbar thumb color on hover */
+  }
+  
+  .markdownContent .simplebar-track {
+    /* Optional: Customize the track if needed */
+    background: #f1f1f1; /* Scrollbar track color */
   }
   
   /* Responsive Design */
@@ -125,6 +179,32 @@
       width: 30px;
       height: 30px;
       border-width: 3px;
+    }
+  
+    .content {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+      padding-right: 0;
+      padding-bottom: 1rem;
+    }
+  
+    .markdownContent {
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    /* Adjust SimpleBar scrollbar for mobile */
+    .markdownContent .simplebar-scrollbar::before {
+      background-color: #888;
+    }
+  
+    .markdownContent .simplebar-scrollbar:hover::before {
+      background-color: #555;
     }
   }
   

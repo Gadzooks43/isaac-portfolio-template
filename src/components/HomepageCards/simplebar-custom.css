@@ -1,0 +1,22 @@
+/* src/components/HomepageCards/simplebar-custom.css */
+
+/* Customize the scrollbar track */
+.simplebar-track.simplebar-vertical {
+    width: 8px; /* Adjust scrollbar width */
+  }
+  
+  .simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
+    background-color: #888; /* Scrollbar thumb color */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Hover state for scrollbar thumb */
+  .simplebar-scrollbar:hover::before {
+    background-color: #555;
+  }
+  
+  /* Optional: Customize scrollbar rail */
+  .simplebar-track.simplebar-vertical {
+    background-color: #f1f1f1; /* Scrollbar track color */
+  }
+  
