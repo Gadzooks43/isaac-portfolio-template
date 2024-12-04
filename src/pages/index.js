@@ -1,35 +1,7 @@
 import React from "react";
-import clsx from "clsx";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageCards from "../components/HomepageCards"; // Adjust the import path as necessary
-import Heading from "@theme/Heading";
-
-import styles from "./index.module.css";
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}></div>
-        <h3>Blog Posts</h3>
-        <br></br>
-        <Link
-          className="button button--secondary button--lg"
-          to="/blog/example-blog-post"
-        >
-          Example Blog
-        </Link>
-      </div>
-    </header>
-  );
-}
 
 export default function Home() {
   console.log("this is loading!");
@@ -39,13 +11,6 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      {/* Uncomment if you want to include the header and features */}
-      {/* <HomepageHeader />
-      <main>
-        <div className="container">
-          <HomepageFeatures />
-        </div>
-      </main> */}
       <main>
         <div className="container">
           <HomepageCards />
