@@ -2,7 +2,7 @@
   "name": "my-portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Gadzooks43.github.io/isaac-portfolio-template/",
+  "homepage": "https://gadzooks43.github.io/isaac-portfolio-template/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
