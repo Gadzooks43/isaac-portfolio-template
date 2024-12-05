@@ -60,23 +60,25 @@ To start the design process, I wrote a user story to inspire and facilitate the 
 
 When I started sketching the first drafts of some of the main pages, I tried to improve the navigation and intuitive design.
 
-![photo](/content/blog/lockscreen-sketch.png)
+![photo](content/blog/lockscreen-sketch.png)
+
 *This first page is the lockscreen. The only add-ons here were the two icons to the left and right of the home button. These were for the message board and media page. This was an attempt to decrease the user interactions needed to reach what are the two most used pages in the phone.*
 
-![photo](/content/blog/media-page-sketch.png)
+![photo](content/blog/media-page-sketch.png)
+
 *This page was the media page. It was supposed to have a recent summary of music and podcasts to pick from, with options to reach the actual music page and podcast page. I decided, soon after creating this, that it wasn’t necessary and probably just cluttered the navigation more, so it was removed and the media icon button on the main page now points to the music page. Another piece that was later added to a similar-looking page was the scroll bar. Since scrolling is difficult, you simply click the part in the bar you want to reach. If the scroll is too precise, two arrows above and below are added to help with specific navigation. This the user attempts to scroll with little success.*
 
 ## Design System Creation
 
 After making sketches and mulling over designs in my head, I created my initial design system. It was a pretty simple one, considering my project material. I chose only four font sizes and one font. For the color palette, I decided that even though I had a whole scale of grey, since the phone really only used one color of grey, that so would I. The most unique part of the design system was the number of icons. A phone needs lots of icons, but I also wanted to replace a lot of the text buttons used on the old phone UI with icons for a simpler and more universal understanding. The only complex components in the design system were the toggle button and scroll bar. As you can see, there is also an example screen with a 3x3 overlay to help design the mockups.
 
-![photo](/content/blog/design-system-initial.png)
+![photo](content/blog/design-system-initial.png)
 
 ## Mockups
 
 This was my first set of mockups for the pages in the UI. I ended up covering most of the main pages and most of the functionality. When I started making these mockups, I started to adjust some of my strategies. I started using more white outlined containers for lots of the components. I thought this would help section things out and make it clear when things were interactable. I also started veering away from the 3x3 structuring that I wanted to use. This was by accident; I ended up getting into a flow designing and hadn’t put a proper outline in place to keep my designs in line.
 
-![photo](/content/blog/mockups-initial.png)
+![photo](content/blog/mockups-initial.png)
 
 ## Prototype Before User Tests
 

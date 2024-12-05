@@ -9,7 +9,7 @@ tags: [Final Project]
 ---
 # Design System Final Project:
 
-![photo](/content/blog/mockups-and-design-system.png)
+![photo](content/blog/mockups-and-design-system.png)
 <iframe
   style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
   width="800"
