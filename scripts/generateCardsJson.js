@@ -33,7 +33,10 @@ const cardsData = directories.map(({ label, dir }) => {
 
   const markdownFiles = files.map(file => {
     const title = filenameToTitle(file);
-    const filePath = `/content/${dir}/${file}`;
+    var filePath = `content/${dir}/${file}`;
+    // take out .md extension for the slug
+    filePath = filePath.replace(/\.md$/, '');
+    console.log(filePath);
 
     // Read the file content and parse front matter
     const fullPath = path.join(dirPath, file);

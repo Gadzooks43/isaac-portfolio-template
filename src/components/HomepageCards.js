@@ -32,7 +32,7 @@ export default function HomepageCards({ onToggleDarkMode, darkMode }) {
   };
 
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/cards.json')
+    fetch('cards.json')
       .then((res) => res.json())
       .then((data) => {
         setCards(data);
