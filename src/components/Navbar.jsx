@@ -32,14 +32,14 @@ export default function Navbar({ onToggleDarkMode, darkMode }) {
           GitHub
         </a>
         <div className={styles.contactContainer} ref={contactButtonRef}>
-          <a
+          <button
             className={styles.contactButton}
             onClick={toggleContactMenu}
             aria-expanded={showContactMenu}
             aria-haspopup="true"
           >
             Contact
-          </a>
+          </button>
           {showContactMenu && (
             <div className={styles.contactMenu}>
               <p>Email: kenneyisaac43@gmail.com</p>
