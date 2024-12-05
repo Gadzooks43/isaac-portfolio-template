@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--background-color-navbar);
+    padding: 0.5rem 1rem;
+    /* border-bottom: 1px solid #ddd; */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: var(--container-border-radius);
+    border: var(--container-border)
+  }
+  
+  .navLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.75rem;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .navRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navRight a {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--link-color);
+  }
+  
+  .navRight a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dark Mode Button Styles */
+  .darkModeButton {
+    background: none;          /* No background by default */
+    border: none;              /* No border */
+    color: inherit;            /* Inherit text color from parent */
+    cursor: pointer;           /* Pointer on hover */
+    font-size: 1.5rem;         /* Larger icon */
+    margin-left: 1rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--container-border-radius);        /* Slight rounding for better aesthetics */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .darkModeButton:hover {
+    background-color: rgba(0,0,0,0.1);  /* Subtle highlight on hover */
+  }
+  
+.contactContainer {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.contactButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.contactButton:hover {
+  text-decoration: underline;
+}
+
+.contactMenu {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: -40px;
+  background: var(--background-color-navbar);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+  min-width: 150px;
+}
+
+.contactMenu p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}

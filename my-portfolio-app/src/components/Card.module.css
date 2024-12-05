@@ -1,0 +1,240 @@
+/* src/components/HomepageCards/Card.module.css */
+
+  .card {
+    background: var(--card-background-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    border-radius: var(--container-border-radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: var(--container-border);
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    flex-direction: column;
+    height: 60vh;
+  }
+
+  .card:hover,
+  .card:focus {
+    background: var(--card-background-color-hover);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .card.active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    width: 70%;
+    height: 70%;
+    z-index: 1001;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: var(--container-border-radius);
+    transition: all 0.3s ease;
+
+    /* Override hover and focus effects */
+    background: var(--card-background-color); /* Reset to base background color */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Keep active shadow */
+    cursor: default; /* Remove pointer indication */
+  }
+
+  .card.active:hover,
+  .card.active:focus {
+    /* Prevent hover/focus styles when active */
+    background: var(--card-background-color);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .label {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--text-color);
+  }
+  
+  .expandedContent {
+    width: 95%;
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden; /* Remove scrollbar from expanded card */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }  
+  
+  .expandedTitle {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: var(--text-color);
+  }
+
+  .closeButton {
+    position: absolute;
+    right: 0;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--text-color);
+  }
+
+  .closeButton:hover {
+    color: #555;
+  }
+  
+  .content {
+    display: flex;
+    height: 85%;
+    margin-top: 1rem;
+  }
+  
+  .sidebar {
+    width: 33.33%;
+    border: var(--container-border);
+    padding-right: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+    border-radius: var(--container-border-radius);
+  }
+  
+  .sidebarItem {
+    padding: 0.5rem 0;
+    cursor: pointer;
+    color: var(--link-color);
+  }
+  
+  .sidebarItem:hover,
+  .sidebarItem:focus {
+    text-decoration: underline;
+    color: var(--link-color-hover);
+  }
+  
+  .activeSidebarItem {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--link-color-active);
+  }
+  
+  .markdownContent {
+    flex: 1; /* Make this section grow to fill available space */
+    padding-left: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #555;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+
+  .copyButton {
+    background: none;
+    border: none;
+    color: var(--link-color);
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    filter: grayscale(100%);
+  }
+  
+  .copyButton:hover {
+    text-decoration: underline;
+  }  
+  
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Custom Scrollbar Styles via SimpleBar */
+  .markdownContent .simplebar-scrollbar::before {
+    background-color: #888; /* Scrollbar thumb color */
+  }
+  
+  .markdownContent .simplebar-scrollbar:hover::before {
+    background-color: #555; /* Scrollbar thumb color on hover */
+  }
+  
+  .markdownContent .simplebar-track {
+    /* Optional: Customize the track if needed */
+    background: #f1f1f1; /* Scrollbar track color */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .card {
+      width: 150px;
+      height: 120px;
+    }
+  
+    .active {
+      width: 95%;
+      height: 90%;
+    }
+  
+    .expandedTitle {
+      font-size: 1.5rem;
+    }
+  
+    .closeButton {
+      top: 5px;
+      right: 5px;
+      font-size: 1.5rem;
+    }
+  
+    .spinner {
+      width: 30px;
+      height: 30px;
+      border-width: 3px;
+    }
+  
+    .content {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+      padding-right: 0;
+      padding-bottom: 1rem;
+    }
+  
+    .markdownContent {
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    /* Adjust SimpleBar scrollbar for mobile */
+    .markdownContent .simplebar-scrollbar::before {
+      background-color: #888;
+    }
+  
+    .markdownContent .simplebar-scrollbar:hover::before {
+      background-color: #555;
+    }
+  }
+  

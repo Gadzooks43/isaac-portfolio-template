@@ -1,0 +1,75 @@
+:root {
+  /* Light mode variables */
+  --background-color: #ffffff;
+  --text-color: #535353;
+  --card-background-color: #999999;
+  --link-color: #535353;
+  --link-color-hover: #666666;
+  --link-color-active: #535353;
+  --background-color-navbar: #999999;
+  --card-background-color-hover: #b0b0b0;
+  --container-border: 2px solid #535353;
+  --container-border-radius: 4px;
+}
+
+.dark-mode {
+  /* Dark mode variables */
+  --background-color: #535353;
+  --text-color: #ffffff;
+  --card-background-color: #999999;
+  --link-color: #ffffff;
+  --link-color-hover: #cccccc;
+  --link-color-active: #ffffff;
+  --background-color-navbar: #999999;
+  --card-background-color-hover: #b0b0b0;
+  --container-border: 2px solid #ffffff;
+  --container-border-radius: 4px;
+}
+
+body, .App {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.App-link {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: var(--link-color-hover);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  background-color: var(--card-background-color);
+  color: var(--text-color);
+  padding: 1.5rem;
+  border-radius: var(--container-border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
