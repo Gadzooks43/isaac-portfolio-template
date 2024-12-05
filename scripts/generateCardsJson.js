@@ -36,7 +36,6 @@ const cardsData = directories.map(({ label, dir }) => {
     var filePath = `content/${dir}/${file}`;
     // take out .md extension for the slug
     filePath = filePath.replace(/\.md$/, '');
-    console.log(filePath);
 
     // Read the file content and parse front matter
     const fullPath = path.join(dirPath, file);

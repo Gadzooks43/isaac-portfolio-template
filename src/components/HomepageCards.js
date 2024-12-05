@@ -157,7 +157,7 @@ export default function HomepageCards({ onToggleDarkMode, darkMode }) {
       <div className={`${styles.blurWrapper} ${activeCardLabel ? styles.blurred : ''}`}>
         <Navbar onToggleDarkMode={onToggleDarkMode} darkMode={darkMode} />
         <h1>Isaac Kenney: Software Engineer</h1>
-        <p>Disguised as a Design Major for a Semester.</p>
+        <p>Presents a very bland portfolio</p>
 
         <div className={styles.cardContainer}>
           {cards.map((card) => {
