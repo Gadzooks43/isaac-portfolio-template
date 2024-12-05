@@ -1,0 +1,32 @@
+wordjournal:
+  label: WordJournal
+  permalink: /wordjournal
+  description: Choose a section of the reading and summarize it in a single word. Then, write a short paragraph explaining why you chose that word and why the concept is important for you to remember in your career.
+approximateanalogy:
+  label: ApproximateAnalogy
+  permalink: /approximateanalogy
+  description: Write an analogy based on a topic in the reading and explain why the concept is important to remember in your career.
+conceptmap:
+  label: ConceptMap
+  permalink: /conceptmap
+  description: Represent a set of concepts from the reading in a concept map and describe the relationships.
+podcast:
+  label: Podcast
+  permalink: /podcast
+  description: Record a podcast exploring a perspective on a subject from the reading and include a textual summary.
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Write a tutorial on a task discussed in the reading, adding context for future reference.
+sketchinspo:
+  label: SketchInspo
+  permalink: /sketchinspo
+  description: Describe what inspired you and draw a quick sketch of an interface based on your reading.
+directedanalysis:
+  label: DirectedAnalysis
+  permalink: /directedanalysis
+  description: Define what you learned and provide a screenshot or video of an interface, explaining why it’s a good/poor example.
+freeform:
+  label: FreeForm
+  permalink: /freeform
+  description: Share something that captured you from the reading in any format, citing your sources.
