@@ -4,97 +4,97 @@
     "markdownFiles": [
       {
         "title": "2024 09 13 Design Rules",
-        "path": "content/blog/2024-09-13-design-rules.md",
+        "path": "content/blog/2024-09-13-design-rules",
         "slug": "design-rules"
       },
       {
         "title": "2024 09 20 Aesthetic Design",
-        "path": "content/blog/2024-09-20-aesthetic-design.md",
+        "path": "content/blog/2024-09-20-aesthetic-design",
         "slug": "aesthetic-design"
       },
       {
         "title": "2024 09 27 Color Study",
-        "path": "content/blog/2024-09-27-color-study.md",
+        "path": "content/blog/2024-09-27-color-study",
         "slug": "color-study"
       },
       {
         "title": "2024 09 27 Colors 1",
-        "path": "content/blog/2024-09-27-colors-1.md",
+        "path": "content/blog/2024-09-27-colors-1",
         "slug": "colors-1"
       },
       {
         "title": "2024 09 27 Colors 2",
-        "path": "content/blog/2024-09-27-colors-2.md",
+        "path": "content/blog/2024-09-27-colors-2",
         "slug": "colors-2"
       },
       {
         "title": "2024 10 11 Navigation And Values",
-        "path": "content/blog/2024-10-11-navigation-and-values.md",
+        "path": "content/blog/2024-10-11-navigation-and-values",
         "slug": "navigation-and-values"
       },
       {
         "title": "2024 10 15 Design System Final",
-        "path": "content/blog/2024-10-15-design-system-final.md",
+        "path": "content/blog/2024-10-15-design-system-final",
         "slug": "design-system-final"
       },
       {
         "title": "2024 10 17 Design Narratives",
-        "path": "content/blog/2024-10-17-design-narratives.md",
+        "path": "content/blog/2024-10-17-design-narratives",
         "slug": "design-narratives"
       },
       {
         "title": "2024 10 17 Feedback Workshop",
-        "path": "content/blog/2024-10-17-feedback-workshop.md",
+        "path": "content/blog/2024-10-17-feedback-workshop",
         "slug": "feedback-workshop"
       },
       {
         "title": "2024 10 17 Mockups",
-        "path": "content/blog/2024-10-17-mockups.md",
+        "path": "content/blog/2024-10-17-mockups",
         "slug": "mockups-reading"
       },
       {
         "title": "2024 10 2024 Museum Walk",
-        "path": "content/blog/2024-10-2024-museum-walk.md",
+        "path": "content/blog/2024-10-2024-museum-walk",
         "slug": "museum-walk"
       },
       {
         "title": "2024 10 25 Debreifing User Tests",
-        "path": "content/blog/2024-10-25-debreifing-user-tests.md",
+        "path": "content/blog/2024-10-25-debreifing-user-tests",
         "slug": "debreifing-user-tests"
       },
       {
         "title": "2024 10 25 User Testing",
-        "path": "content/blog/2024-10-25-user-testing.md",
+        "path": "content/blog/2024-10-25-user-testing",
         "slug": "user-testing"
       },
       {
         "title": "2024 10 4 Design Systems",
-        "path": "content/blog/2024-10-4-design-systems.md",
+        "path": "content/blog/2024-10-4-design-systems",
         "slug": "design-systems"
       },
       {
         "title": "2024 11 1 Colleague Assessment Debrief",
-        "path": "content/blog/2024-11-1-colleague-assessment-debrief.md",
+        "path": "content/blog/2024-11-1-colleague-assessment-debrief",
         "slug": "colleague-assessment-debrief"
       },
       {
         "title": "2024 11 1 Inclusive Design 1",
-        "path": "content/blog/2024-11-1-inclusive-design-1.md",
+        "path": "content/blog/2024-11-1-inclusive-design-1",
         "slug": "inclusive-design-1"
       },
       {
         "title": "2024 11 1 Inclusive Design 2",
-        "path": "content/blog/2024-11-1-inclusive-design-2.md",
+        "path": "content/blog/2024-11-1-inclusive-design-2",
         "slug": "inclusive-design-2"
       },
       {
         "title": "2024 11 15 User Test Changes",
-        "path": "content/blog/2024-11-15-user-test-changes.md",
+        "path": "content/blog/2024-11-15-user-test-changes",
         "slug": "user-test-changes"
       },
       {
         "title": "2024 12 2 Design Evolution Narrative",
-        "path": "content/blog/2024-12-2-design-evolution-narrative.md",
+        "path": "content/blog/2024-12-2-design-evolution-narrative",
         "slug": "design-evolution-narrative"
       }
     ]
@@ -104,7 +104,7 @@
     "markdownFiles": [
       {
         "title": "Projects",
-        "path": "content/projects/projects.md",
+        "path": "content/projects/projects",
         "slug": "/projects"
       }
     ]
@@ -114,7 +114,7 @@
     "markdownFiles": [
       {
         "title": "About Me",
-        "path": "content/about-me/about-me.md",
+        "path": "content/about-me/about-me",
         "slug": "/about-me"
       }
     ]
