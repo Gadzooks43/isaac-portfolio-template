@@ -23,7 +23,7 @@ export default function Navbar({ onToggleDarkMode, darkMode }) {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navLeft}>
-        <img src="/img/headshot.png" alt="Profile" className={styles.profilePic} />
+        <img src={process.env.PUBLIC_URL + "/img/headshot.png"} alt="Profile" className={styles.profilePic} />
         <span className={styles.title}>Isaac's Portfolio</span>
       </div>
 
