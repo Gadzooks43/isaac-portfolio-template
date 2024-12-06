@@ -13,8 +13,8 @@ tags: [Final Project]
 
 <iframe
   style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
-  width="800"
-  height="450"
+  width="auto"
+  height="350"
   src="https://embed.figma.com/proto/EMTHMAiKikJiirIRPrKgJX/HUI-Design-System-with-Prototype?node-id=2002-29&node-type=frame&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2002%3A29&embed-host=share"
   allowFullScreen
 ></iframe>
