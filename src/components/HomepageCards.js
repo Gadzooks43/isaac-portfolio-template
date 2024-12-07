@@ -33,7 +33,12 @@ export default function HomepageCards({ onToggleDarkMode, darkMode }) {
 
   useEffect(() => {
     fetch('cards.json')
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+        return res.json();
+      })
       .then((data) => {
         setCards(data);
       })

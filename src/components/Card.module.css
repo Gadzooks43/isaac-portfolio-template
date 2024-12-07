@@ -132,6 +132,15 @@
     padding-left: 1rem;
     box-sizing: border-box;
   }
+
+  .markdownContent img {
+    display: block;
+    height: 300px;       /* or another fixed height you prefer */
+    object-fit: cover;   /* crops image to fill the space without distortion */
+    margin: 1rem auto;
+    border-radius: var(--container-border-radius);  /* optional, just to make images look nicer */
+    border: var(--container-border);  /* optional, just to make images look nicer */
+  }
   
   .loader {
     display: flex;
