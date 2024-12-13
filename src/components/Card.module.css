@@ -171,7 +171,40 @@
   .copyButton:hover {
     text-decoration: underline;
   }  
-  
+
+/* Tag Container & Tag Buttons */
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.tagButton {
+  background: var(--card-background-color);
+  color: var(--text-color);
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--container-border-radius);
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.tagButton:hover,
+.tagButton:focus {
+  background: var(--card-background-color-hover);
+  color: var(--text-color);
+  text-decoration: underline;
+  outline: none;
+}
+
+.activeTag {
+  background: var(--card-background-color-hover);
+  color: var(--link-color-active);
+  font-weight: bold;
+} 
   
   @keyframes spin {
     0% { transform: rotate(0deg); }

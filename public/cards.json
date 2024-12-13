@@ -5,102 +5,130 @@
       {
         "title": "2024 09 13 Design Rules",
         "path": "content/blog/2024-09-13-design-rules.md",
-        "slug": "design-rules"
+        "slug": "design-rules",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 09 20 Aesthetic Design",
         "path": "content/blog/2024-09-20-aesthetic-design.md",
-        "slug": "aesthetic-design"
+        "slug": "aesthetic-design",
+        "tags": [
+          "ApproximateAnalogy"
+        ]
       },
       {
         "title": "2024 09 27 Color Study",
         "path": "content/blog/2024-09-27-color-study.md",
-        "slug": "color-study"
+        "slug": "color-study",
+        "tags": [
+          "Homework"
+        ]
       },
       {
         "title": "2024 09 27 Colors 1",
         "path": "content/blog/2024-09-27-colors-1.md",
-        "slug": "colors-1"
+        "slug": "colors-1",
+        "tags": [
+          "FreeForm"
+        ]
       },
       {
         "title": "2024 09 27 Colors 2",
         "path": "content/blog/2024-09-27-colors-2.md",
-        "slug": "colors-2"
+        "slug": "colors-2",
+        "tags": [
+          "ConceptMap"
+        ]
       },
       {
         "title": "2024 10 11 Navigation And Values",
         "path": "content/blog/2024-10-11-navigation-and-values.md",
-        "slug": "navigation-and-values"
-      },
-      {
-        "title": "2024 10 15 Design System Final",
-        "path": "content/blog/2024-10-15-design-system-final.md",
-        "slug": "design-system-final"
+        "slug": "navigation-and-values",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 10 17 Design Narratives",
         "path": "content/blog/2024-10-17-design-narratives.md",
-        "slug": "design-narratives"
+        "slug": "design-narratives",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 10 17 Feedback Workshop",
         "path": "content/blog/2024-10-17-feedback-workshop.md",
-        "slug": "feedback-workshop"
+        "slug": "feedback-workshop",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 10 17 Mockups",
         "path": "content/blog/2024-10-17-mockups.md",
-        "slug": "mockups-reading"
+        "slug": "mockups-reading",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 10 2024 Museum Walk",
         "path": "content/blog/2024-10-2024-museum-walk.md",
-        "slug": "museum-walk"
+        "slug": "museum-walk",
+        "tags": [
+          "Gallery Walk"
+        ]
       },
       {
         "title": "2024 10 25 Debreifing User Tests",
         "path": "content/blog/2024-10-25-debreifing-user-tests.md",
-        "slug": "debreifing-user-tests"
+        "slug": "debreifing-user-tests",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 10 25 User Testing",
         "path": "content/blog/2024-10-25-user-testing.md",
-        "slug": "user-testing"
+        "slug": "user-testing",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 10 4 Design Systems",
         "path": "content/blog/2024-10-4-design-systems.md",
-        "slug": "design-systems"
-      },
-      {
-        "title": "2024 11 1 Colleague Assessment Debrief",
-        "path": "content/blog/2024-11-1-colleague-assessment-debrief.md",
-        "slug": "colleague-assessment-debrief"
+        "slug": "design-systems",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 11 1 Inclusive Design 1",
         "path": "content/blog/2024-11-1-inclusive-design-1.md",
-        "slug": "inclusive-design-1"
+        "slug": "inclusive-design-1",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 11 1 Inclusive Design 2",
         "path": "content/blog/2024-11-1-inclusive-design-2.md",
-        "slug": "inclusive-design-2"
-      },
-      {
-        "title": "2024 11 15 User Test Changes",
-        "path": "content/blog/2024-11-15-user-test-changes.md",
-        "slug": "user-test-changes"
-      },
-      {
-        "title": "2024 12 2 Design Evolution Narrative",
-        "path": "content/blog/2024-12-2-design-evolution-narrative.md",
-        "slug": "design-evolution-narrative"
+        "slug": "inclusive-design-2",
+        "tags": [
+          "WordJournal"
+        ]
       },
       {
         "title": "2024 12 6 Design Interviews",
         "path": "content/blog/2024-12-6-design-interviews.md",
-        "slug": "design-interviews"
+        "slug": "design-interviews",
+        "tags": [
+          "Tutorial"
+        ]
       }
     ]
   },
@@ -108,9 +136,48 @@
     "label": "Projects",
     "markdownFiles": [
       {
-        "title": "Projects",
-        "path": "content/projects/projects.md",
-        "slug": "/projects"
+        "title": "Colleague Assessment Debrief",
+        "path": "content/projects/colleague-assessment-debrief.md",
+        "slug": "colleague-assessment-debrief",
+        "tags": [
+          "Final Project"
+        ]
+      },
+      {
+        "title": "Design Evolution Narrative",
+        "path": "content/projects/design-evolution-narrative.md",
+        "slug": "design-evolution-narrative",
+        "tags": [
+          "Final Project"
+        ]
+      },
+      {
+        "title": "Design System Final",
+        "path": "content/projects/design-system-final.md",
+        "slug": "design-system-final",
+        "tags": [
+          "Final Project"
+        ]
+      },
+      {
+        "title": "Photo Verification App",
+        "path": "content/projects/photo-verification-app.md",
+        "slug": null,
+        "tags": []
+      },
+      {
+        "title": "Secure Password Manager",
+        "path": "content/projects/secure-password-manager.md",
+        "slug": null,
+        "tags": []
+      },
+      {
+        "title": "User Test Changes",
+        "path": "content/projects/user-test-changes.md",
+        "slug": "user-test-changes",
+        "tags": [
+          "Final Project"
+        ]
       }
     ]
   },
@@ -120,7 +187,14 @@
       {
         "title": "About Me",
         "path": "content/about-me/about-me.md",
-        "slug": "/about-me"
+        "slug": "/about-me",
+        "tags": []
+      },
+      {
+        "title": "Resume",
+        "path": "content/about-me/resume.md",
+        "slug": null,
+        "tags": []
       }
     ]
   }

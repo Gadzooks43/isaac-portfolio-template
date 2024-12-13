@@ -33,19 +33,18 @@ const cardsData = directories.map(({ label, dir }) => {
 
   const markdownFiles = files.map(file => {
     const title = filenameToTitle(file);
-    var filePath = `content/${dir}/${file}`;
-    // take out .md extension for the slug
-    // filePath = filePath.replace(/\.md$/, '');
+    const filePath = `content/${dir}/${file}`;
 
     // Read the file content and parse front matter
     const fullPath = path.join(dirPath, file);
     const content = fs.readFileSync(fullPath, 'utf-8');
     const { data } = matter(content); // parse front matter
 
-    // Extract slug from front matter if present
+    // Extract slug and tags from front matter if present
     const slug = data.slug || null;
+    const tags = Array.isArray(data.tags) ? data.tags : [];
 
-    return { title, path: filePath, slug };
+    return { title, path: filePath, slug, tags };
   });
 
   return { label, markdownFiles };

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
 import SimpleBar from 'simplebar-react';
 import 'simplebar/dist/simplebar.min.css'; // Import SimpleBar styles
@@ -33,6 +33,26 @@ export default function Card({
   onSelect,
   onClose,
 }) {
+  // Track currently selected tag for filtering
+  const [selectedTag, setSelectedTag] = useState(null);
+
+  // Gather all unique tags from markdownFiles
+  const allTags = useMemo(() => {
+    const tagSet = new Set();
+    markdownFiles.forEach(file => {
+      if (Array.isArray(file.tags)) {
+        file.tags.forEach(tag => tagSet.add(tag));
+      }
+    });
+    return Array.from(tagSet);
+  }, [markdownFiles]);
+
+  // Filter markdownFiles by selectedTag if any
+  const filteredMarkdownFiles = useMemo(() => {
+    if (!selectedTag) return markdownFiles;
+    return markdownFiles.filter(file => file.tags && file.tags.includes(selectedTag));
+  }, [markdownFiles, selectedTag]);
+
   // Handle Escape key to close the expanded card
   useEffect(() => {
     const handleEsc = (e) => {
@@ -46,6 +66,15 @@ export default function Card({
       document.removeEventListener('keydown', handleEsc);
     };
   }, [isActive, onClose]);
+
+  const handleTagClick = (tag) => {
+    // Toggle the selectedTag
+    setSelectedTag((current) => (current === tag ? null : tag));
+  };
+
+  // Remove front matter from the markdown content
+  const frontMatterRegex = /^---[\s\S]*?---\s*/;
+  const contentWithoutFrontMatter = markdownContent ? markdownContent.replace(frontMatterRegex, '') : '';
 
   return (
     <div
@@ -77,9 +106,28 @@ export default function Card({
               &times;
             </button>
           </div>
+
+          {/* Tags Section (only show if there are tags) */}
+          {allTags.length > 0 && (
+            <div className={styles.tagContainer}>
+              {allTags.map(tag => (
+                <button
+                  key={tag}
+                  className={`${styles.tagButton} ${selectedTag === tag ? styles.activeTag : ''}`}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleTagClick(tag);
+                  }}
+                >
+                  {tag}
+                </button>
+              ))}
+            </div>
+          )}
+
           <div className={styles.content}>
             <SimpleBar className={styles.sidebar}>
-              {markdownFiles.map((file) => (
+              {filteredMarkdownFiles.map((file) => (
                 <div
                   key={file.path}
                   className={`${styles.sidebarItem} ${activeMarkdown === file.path ? styles.activeSidebarItem : ''}`}
@@ -120,11 +168,11 @@ export default function Card({
                   <div className={styles.spinner}></div>
                 </div>
               ) : (
-                <ReactMarkdown 
-                  remarkPlugins={[remarkGfm]} 
-                  rehypePlugins={[rehypeRaw]} 
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
+                  rehypePlugins={[rehypeRaw]}
                 >
-                  {markdownContent}
+                  {contentWithoutFrontMatter}
                 </ReactMarkdown>
               )}
             </SimpleBar>
