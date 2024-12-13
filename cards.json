@@ -51,14 +51,6 @@
         ]
       },
       {
-        "title": "2024 10 15 Design System Final",
-        "path": "content/blog/2024-10-15-design-system-final.md",
-        "slug": "design-system-final",
-        "tags": [
-          "Final Project"
-        ]
-      },
-      {
         "title": "2024 10 17 Design Narratives",
         "path": "content/blog/2024-10-17-design-narratives.md",
         "slug": "design-narratives",
@@ -87,7 +79,7 @@
         "path": "content/blog/2024-10-2024-museum-walk.md",
         "slug": "museum-walk",
         "tags": [
-          "Homework"
+          "Gallery Walk"
         ]
       },
       {
@@ -115,14 +107,6 @@
         ]
       },
       {
-        "title": "2024 11 1 Colleague Assessment Debrief",
-        "path": "content/blog/2024-11-1-colleague-assessment-debrief.md",
-        "slug": "colleague-assessment-debrief",
-        "tags": [
-          "Final Project"
-        ]
-      },
-      {
         "title": "2024 11 1 Inclusive Design 1",
         "path": "content/blog/2024-11-1-inclusive-design-1.md",
         "slug": "inclusive-design-1",
@@ -139,22 +123,6 @@
         ]
       },
       {
-        "title": "2024 11 15 User Test Changes",
-        "path": "content/blog/2024-11-15-user-test-changes.md",
-        "slug": "user-test-changes",
-        "tags": [
-          "Final Project"
-        ]
-      },
-      {
-        "title": "2024 12 2 Design Evolution Narrative",
-        "path": "content/blog/2024-12-2-design-evolution-narrative.md",
-        "slug": "design-evolution-narrative",
-        "tags": [
-          "Final Project"
-        ]
-      },
-      {
         "title": "2024 12 6 Design Interviews",
         "path": "content/blog/2024-12-6-design-interviews.md",
         "slug": "design-interviews",
@@ -168,6 +136,30 @@
     "label": "Projects",
     "markdownFiles": [
       {
+        "title": "Colleague Assessment Debrief",
+        "path": "content/projects/colleague-assessment-debrief.md",
+        "slug": "colleague-assessment-debrief",
+        "tags": [
+          "Final Project"
+        ]
+      },
+      {
+        "title": "Design Evolution Narrative",
+        "path": "content/projects/design-evolution-narrative.md",
+        "slug": "design-evolution-narrative",
+        "tags": [
+          "Final Project"
+        ]
+      },
+      {
+        "title": "Design System Final",
+        "path": "content/projects/design-system-final.md",
+        "slug": "design-system-final",
+        "tags": [
+          "Final Project"
+        ]
+      },
+      {
         "title": "Photo Verification App",
         "path": "content/projects/photo-verification-app.md",
         "slug": null,
@@ -178,6 +170,14 @@
         "path": "content/projects/secure-password-manager.md",
         "slug": null,
         "tags": []
+      },
+      {
+        "title": "User Test Changes",
+        "path": "content/projects/user-test-changes.md",
+        "slug": "user-test-changes",
+        "tags": [
+          "Final Project"
+        ]
       }
     ]
   },
