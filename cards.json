@@ -108,9 +108,19 @@
     "label": "Projects",
     "markdownFiles": [
       {
+        "title": "Photo Verification App",
+        "path": "content/projects/photo-verification-app.md",
+        "slug": null
+      },
+      {
         "title": "Projects",
         "path": "content/projects/projects.md",
         "slug": "/projects"
+      },
+      {
+        "title": "Secure Password Manager",
+        "path": "content/projects/secure-password-manager.md",
+        "slug": null
       }
     ]
   },
@@ -121,6 +131,11 @@
         "title": "About Me",
         "path": "content/about-me/about-me.md",
         "slug": "/about-me"
+      },
+      {
+        "title": "Resume",
+        "path": "content/about-me/resume.md",
+        "slug": null
       }
     ]
   }
