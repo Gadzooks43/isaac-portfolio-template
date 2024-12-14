@@ -29,8 +29,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1.2);
-    width: 70%;
-    height: 70%;
+    width: 76%;
+    height: 76%;
     z-index: 1001;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     border-radius: var(--container-border-radius);
@@ -103,7 +103,6 @@
   .sidebar {
     width: 33.33%;
     border: var(--container-border);
-    padding-right: 1rem;
     margin-right: 1rem;
     box-sizing: border-box;
     border-radius: var(--container-border-radius);
@@ -172,13 +171,12 @@
     text-decoration: underline;
   }  
 
-/* Tag Container & Tag Buttons */
 .tagContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 .tagButton {
@@ -192,8 +190,7 @@
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-.tagButton:hover,
-.tagButton:focus {
+.tagButton:hover {
   background: var(--card-background-color-hover);
   color: var(--text-color);
   text-decoration: underline;

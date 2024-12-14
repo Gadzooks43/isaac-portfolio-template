@@ -160,6 +160,14 @@
         ]
       },
       {
+        "title": "Making Of My Portfolio",
+        "path": "content/projects/making-of-my-portfolio.md",
+        "slug": "making-of-my-portfolio",
+        "tags": [
+          "Portfolio"
+        ]
+      },
+      {
         "title": "Photo Verification App",
         "path": "content/projects/photo-verification-app.md",
         "slug": null,
