@@ -96,8 +96,9 @@
   
   .content {
     display: flex;
-    height: 85%;
+    flex: 1;
     margin-top: 1rem;
+    overflow: hidden;
   }
   
   .sidebar {
@@ -130,6 +131,7 @@
     flex: 1; /* Make this section grow to fill available space */
     padding-left: 1rem;
     box-sizing: border-box;
+    text-align: left;
   }
 
   .markdownContent img {
