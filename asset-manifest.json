@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/isaac-portfolio-template/static/css/main.bdb94332.css",
+    "main.css": "/isaac-portfolio-template/static/css/main.470b4255.css",
     "main.js": "/isaac-portfolio-template/static/js/main.6b438e92.js",
     "static/js/453.1d9b6421.chunk.js": "/isaac-portfolio-template/static/js/453.1d9b6421.chunk.js",
     "index.html": "/isaac-portfolio-template/index.html",
-    "main.bdb94332.css.map": "/isaac-portfolio-template/static/css/main.bdb94332.css.map",
+    "main.470b4255.css.map": "/isaac-portfolio-template/static/css/main.470b4255.css.map",
     "main.6b438e92.js.map": "/isaac-portfolio-template/static/js/main.6b438e92.js.map",
     "453.1d9b6421.chunk.js.map": "/isaac-portfolio-template/static/js/453.1d9b6421.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdb94332.css",
+    "static/css/main.470b4255.css",
     "static/js/main.6b438e92.js"
   ]
 }
