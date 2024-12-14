@@ -7,7 +7,7 @@ authors:
     url: https://github.com/Gadzooks43
 tags: [WordJournal]
 ---
-# design Rules Reading:
+# Design Rules Reading:
 
 This week I read chapters 2-5 of "Don't Make Me Think" by Steve Krug, and if I had to pick one word to sum up what really stuck with me, it’s gotta be “Clarity.” Krug talks about how people don’t actually read websites, they just scan them quick, looking for the first thing that catches their eye, and they don’t choose the best option, they just pick whatever looks good enough and they don’t really try to figure out how stuff works they just muddle through and hope it does.
 
