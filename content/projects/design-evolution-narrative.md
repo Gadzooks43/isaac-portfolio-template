@@ -12,22 +12,6 @@ tags: [Final Project]
 
 By Isaac Kenney
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Project Inspiration and Motivation](#project-inspiration-and-motivation)
-- [How the UI Improves Lives](#how-the-ui-improves-lives)
-- [Target Device Type](#target-device-type)
-- [Story Inspiration](#story-inspiration)
-- [Early Sketches](#early-sketches)
-- [Design System Creation](#design-system-creation)
-- [Mockups](#mockups)
-- [Prototype Before User Tests](#prototype-before-user-tests)
-- [Colleague Assessment](#colleague-assessment)
-- [User Testing Procedures](#user-testing-procedures)
-- [Consistency with Core Values](#consistency-with-core-values)
-- [Conclusion](#conclusion)
-
 ## Introduction
 
 My name is Isaac Kenney. I decided to work alone on the final project for Honors User Interfaces. I am a senior studying Software Engineering at the University of Nebraska Lincoln. My interest in user interfaces lies in my role as an intern for a Lincoln startup called Boveye. Our company does work with AI, and both my bosses have experience in business and AI. My role is covering all other software-related gaps in the company. This has led me to learn bits and pieces from many different areas of the field of software. I chose this class to further my understanding of UI/UX design so I can help my team in the future. I chose a final project that is close to home for me and simplifies my variables so I can focus on the basics in what we learned this year.
